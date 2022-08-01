@@ -1,0 +1,150 @@
+.banner {
+    animation: stret 3s;
+    -webkit-animation: stret 3s;
+    -moz-animation: stret 3s;
+    -o-animation: stret 3s;
+    -ms-animation: stret 3s;
+    background-color: #0c0d0f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    padding: 5vh;
+}
+@keyframes stret {
+    0%{height: 2vh;}
+    100%{height: 70vh;}
+    
+}
+@keyframes fadein{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.Todays_special {
+    animation: stret 3s;
+    -webkit-animation: stret 3s;
+    -moz-animation: stret 3s;
+    -o-animation: stret 3s;
+    -ms-animation: stret 3s;
+    background-color: #1a1c20;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-content: left;
+    color: white;
+    height: 50vh;
+}
+#home_info{
+    height: 50vh;
+    animation: stret 3s;
+    -webkit-animation: stret 3s;
+    -moz-animation: stret 3s;
+    -o-animation: stret 3s;
+    -ms-animation: stret 3s;
+}
+.top_logo{
+    margin-left: 100px;
+    animation: fadein 10s;
+    -webkit-animation: fadein 10s;
+    -moz-animation: fadein 10s;
+    -o-animation: fadein 10s;
+    -ms-animation: fadein 10s;
+    text-align: center;
+    display: block;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: white;
+}
+.Item{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 25vh;
+    height: 25vh;
+}
+.item_img{
+    animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -o-animation: fadein 5s;
+    -ms-animation: fadein 5s;
+    margin-right: 0vh;
+    padding-right: 0px;
+    width: 50vh;
+    display: block;
+    height: 100vh;
+    text-align: center;
+    margin-left: auto;
+    
+}
+
+.item_Desc{
+    font-style: italic;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+}
+img{
+    border-radius: 5%;
+}
+body{
+    margin:0px
+}
+h2{
+    color: yellow;
+    font-variant: unset;
+    animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -o-animation: fadein 5s;
+    -ms-animation: fadein 5s;
+    text-align: center;
+    
+}
+#Rest{
+    color:red;
+    font-size: 80px;
+    margin-bottom: 0%;
+    animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -o-animation: fadein 5s;
+    -ms-animation: fadein 5s;
+    text-align: center;
+}
+#list{
+    width: 500px;
+    height: 50px;
+    font-size: large;
+    color: black;
+    font-style: italic;
+    animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -o-animation: fadein 5s;
+    -ms-animation: fadein 5s;
+    
+}
+#button{
+    height: 50px;
+    width: 100px;
+    font-size: larger;
+    font-style: oblique;
+    animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -o-animation: fadein 5s;
+    -ms-animation: fadein 5s;
+}
+#home_info{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}

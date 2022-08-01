@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="~/index.css" type="text/css"/>
+    <script src="index.js"></script>
+  </head>
+  <body onload="getSpecial()">
+    <div class="banner">
+      <div class="rest_name">
+        <img
+          src="Agaves_man.png"
+          alt="welcome to agave"
+          width="400vh"
+          height="400vh"
+          class="top_logo"
+        />
+        <h1 id="Rest">LOS AGAVES</h1>
+        <h2>Mexican Food Jalisco Style</h2>
+        <form class="Input">
+          <input id="button" type="button" value="home" onclick="home()" />
+          <select name="list" id="list" accesskey="target">
+            <option value="none" selected>Choose a menu type</option>
+            <option value="index2.html">House Specials</option>
+            <option value="index3.html">Combinaciones</option>
+            <option value="index4.html">
+              Burgers,Meat Cuts and from the grill
+            </option>
+            <option value="index5.html">Molcagetes</option>
+            <option value="index6.html">SeaFood</option>
+            <option value="index7.html">Kid's menu</option>
+            <option value="index8.html">Desserts</option>
+            <option value="index9.html">Sides and Drinks</option>
+            <option value="index10.html">Wine, Beer, and Alcohol</option>
+          </select>
+          <input id="button" type="button" value="Go" onclick="goToNewPage()" />
+        </form>
+      </div>
+    </div>
+    <div class="Todays_special">
+      <h1>Today's special is:</h1>
+      <h1 id="Special_Name"></h3>
+    </div>
+    <div id="home_info">
+      <h1>Contact info / informacion de contacto</h1>
+      <h1>Phone: 575 - 630 - 0022</h1>
+      <input
+        id="fb"
+        type="button"
+        style="
+          background-image: url(d20.png);
+          width: 200px;
+          height: 200px;
+          background-size: 100%;
+        "
+        onclick="home()"
+      />
+    </div>
+  </body>
+</html>
